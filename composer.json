@@ -1,0 +1,23 @@
+{
+    "name": "test/raw-pk",
+    "description": "this is a test package",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jahidhasan3323",
+        "email": "hasanj635@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Test\\Pk\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Test\\Pk\\ManiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
